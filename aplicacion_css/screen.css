@@ -18,7 +18,6 @@ body {
 
 header {
 	padding-top: 20px;
-	padding-bottom: 20px;
 	color: #357C53;
 }
 
@@ -26,6 +25,34 @@ header h1 {
 	margin: 0;
 	font-weight: normal;
 	font-size: 165%;
+}
+
+.site-nav {
+	margin-top: 20px;
+}
+
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+
+.site-nav a {
+	display:block;
+	color: #357C53;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid #B7DDC7;
+	border-bottom: none;
+}
+
+.site-nav a:hover {
+	background-color: #B7DDC7; 
 }
 
 .content-area {
