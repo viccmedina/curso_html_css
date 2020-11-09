@@ -66,9 +66,42 @@ header h1 {
 	padding-right: 40px;
 	box-sizing: border-box;
 }
+table {
+	border-spacing: 0;
+	border-collapse: collapse;;
+	width: 100%;
+}
+
+.col-item-name {
+  width:60%;
+}
+
+.col-quantity.
+.col-price {
+  width: 20%;
+}
 
 table th {
 	text-align: center;
+	background-color: #229954;
+	color: #FFF;
+	text-shadow: 1px 1px 0 rgba(0,0,0, .4);
+}
+
+table th,
+table td {
+	border: 1px solid #229954;
+	padding: 10px;
+  vertical-align: top;
+}
+
+table tbody tr:nth-child(even) td {
+	background-color: #B7DDC7;
+}
+
+table.grocery-list tr :nth-child(2),
+table.grocery-list tr :nth-child(3) {
+  text-align: center;
 }
 
 .sidebar {
